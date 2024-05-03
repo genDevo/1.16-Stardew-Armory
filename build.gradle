@@ -16,7 +16,7 @@ plugins {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'org.parchmentmc.librarian.forgegradle'
 
-version = '1.18.2-1.3.12'
+version = '1.18.2-1.3.13'
 group = 'net.gendevo.stardewarmory'
 archivesBaseName = 'stardewarmory'
 
