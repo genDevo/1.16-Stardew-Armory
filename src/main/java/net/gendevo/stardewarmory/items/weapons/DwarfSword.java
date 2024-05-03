@@ -30,7 +30,7 @@ public class DwarfSword extends SwordItem {
         if (!pLevel.isClientSide()) {
             pPlayer.getCooldowns().addCooldown(this, 500);
             pPlayer.addEffect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, 80, 9));
-            pPlayer.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 100, 2));
+            pPlayer.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 120, 2));
         }
         return InteractionResultHolder.success(pPlayer.getItemInHand(pUsedHand));
     }

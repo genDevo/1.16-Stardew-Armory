@@ -46,7 +46,7 @@ public enum ModItemTier implements Tier {
         return Ingredient.of(ModItems.PRISMATIC_SHARD.get());
     }),
     DWARF_DAGGER(3, 2000, 9.0F, 1.0F, 12, () -> {
-        return null;
+        return Ingredient.EMPTY;
     }),
     DRAGONTOOTH_SHIV(3, 2500, 9.0F, 1.0F, 11, () -> {
         return Ingredient.of(ModItems.DRAGON_TOOTH.get());
@@ -77,7 +77,7 @@ public enum ModItemTier implements Tier {
         return Ingredient.of(Tags.Items.STORAGE_BLOCKS_IRON);
     }),
     DWARF_HAMMER(3, 2000, 9.0F, 1.0F, 12, () -> {
-        return null;
+        return Ingredient.EMPTY;
     }),
     DRAGONTOOTH_CLUB(3, 2000, 9.0F, 1.0F, 13, () -> {
         return Ingredient.of(ModItems.DRAGON_TOOTH.get());
@@ -150,7 +150,7 @@ public enum ModItemTier implements Tier {
         return Ingredient.of(Items.MAGMA_BLOCK);
     }),
     DWARF_SWORD(3, 2000, 9.0F, 1.0F, 12, () -> {
-        return null;
+        return Ingredient.EMPTY;
     }),
     DRAGONTOOTH_CUTLASS(3, 1200, 9.0F, 1.0F, 13, () -> {
         return Ingredient.of(ModItems.DRAGON_TOOTH.get());
